@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#e1e8ee",
+        "borderWidth": 1,
+        "margin": 15,
+        "marginBottom": 0,
+        "padding": 15,
+        "shadowColor": "rgba(0,0,0, .2)",
+        "shadowOffset": Object {
+          "height": 0,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#43484d",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 15,
+            "textAlign": "center",
+          }
+        }
+        testID="cardTitle"
+      >
+        Sign In
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#bcbbc1",
+            "height": 0.5,
+            "marginBottom": 15,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "padding": 10,
+            "paddingHorizontal": 10,
+            "paddingTop": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 0,
+              "borderColor": "#86939e",
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 40,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="Email"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "height": 10,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "padding": 10,
+            "paddingHorizontal": 10,
+            "paddingTop": 20,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 0,
+              "borderColor": "#86939e",
+              "flex": 1,
+              "flexDirection": "row",
+              "height": 40,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            onChangeText={[Function]}
+            placeholder="Password"
+            placeholderTextColor="#86939e"
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "#242424",
+                "flex": 1,
+                "fontSize": 18,
+                "height": 10,
+                "minHeight": 40,
+              }
+            }
+            testID="RNE__Input__text-input"
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#ff190c",
+              "fontSize": 12,
+              "margin": 5,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#86939e",
+            "fontSize": 12,
+            "padding": 10,
+          }
+        }
+      >
+        By clicking Create Account, I agree to the Terms of Service and Privacy Policy
+      </Text>
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "busy": false,
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#2089dc",
+                "borderColor": "#2089dc",
+                "borderRadius": 0,
+                "borderWidth": 0,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "paddingVertical": 1,
+                  "textAlign": "center",
+                }
+              }
+            >
+              CREATE ACCOUNT
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderRadius": 3,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "busy": false,
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#bbb",
+                "borderColor": "#2089dc",
+                "borderRadius": 3,
+                "borderWidth": 0,
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "marginTop": "2%",
+                "padding": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "paddingVertical": 1,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Sign in with Google
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

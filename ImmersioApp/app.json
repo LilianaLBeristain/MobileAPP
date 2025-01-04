@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ImmersioApp",
+    "slug": "ImmersioApp",
+    "privacy": "unlisted",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "immersio",
+    "splash": {
+      "image": "./assets/immersio-splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.immersio.immersioapp",
+      "buildNumber": "1.2.0"
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.immersio.immersioapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

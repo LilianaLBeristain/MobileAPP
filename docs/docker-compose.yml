@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  build-docs:
+    build: .
+    volumes:
+      - .:/work/source
+  serve:
+    container_name: slate
+    ports:
+      - '4567:4567'
+    volumes:
+      - './slate/source:/srv/slate/source'
+    image: slatedocs/slate
+    command: ['serve']

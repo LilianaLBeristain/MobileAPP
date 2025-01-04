@@ -1,0 +1,12 @@
+#/bin/bash
+
+widdershins \
+  --resolve \
+  --language_tabs 'http:HTTP' 'javascript:Javascript' 'python:Python' \
+  --summary \
+  --omitBody \
+  /work/source/api.yaml \
+  -o /work/slate/source/index.html.md
+
+cd /work/slate && ./deploy.sh --source-only
+cp -r /work/slate/source/* /work/source/slate/source
